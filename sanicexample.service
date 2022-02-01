@@ -1,0 +1,11 @@
+[Unit]
+Description=Sanic Example
+
+[Service]
+User=nobody
+WorkingDirectory=.
+ExecStart=python service.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

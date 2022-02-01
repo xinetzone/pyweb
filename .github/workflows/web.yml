@@ -25,10 +25,10 @@ jobs:
         run: |
           pip install sanic
 
-      # Build the book
-      - name: Build the web
-        run: |
-          sanic server.app
+      # # Build the book
+      # - name: Build the web
+      #   run: |
+      #     sanic server.app
 
       # # Deploy the book's HTML to gh-pages branch
       # - name: GitHub Pages action
